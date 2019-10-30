@@ -1,0 +1,32 @@
+.Description {
+    
+    width:60%;
+    
+    float: right;
+   padding:20px;
+}
+.ImageContainer{
+    padding:20px;
+   max-height: 400px;
+  display: inline-block;
+  border: 3 px solid red;
+ }
+
+
+@media (min-width: 360px) and (max-width: 450px){
+   
+    .Description{
+        width:100%;
+        padding: 5;
+    }
+    .ImageContainer{
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .Description{
+        width:50%;
+      
+    }
+}
